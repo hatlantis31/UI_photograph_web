@@ -1,0 +1,27 @@
+// footer.component.scss
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  .footer-middle {
+    a {
+      color: #333;
+      margin-right: 20px;
+      text-decoration: none;
+
+      &:hover {
+        color: #ccc;
+      }
+
+      i {
+        &.fa-instagram,
+        &.fa-facebook-f,
+        &.fa-linkedin-in {
+          color: #333;
+        }
+      }
+    }
+  }
+}
