@@ -1,1 +1,15 @@
-<p>header works!</p>
+<!-- header.component.html -->
+<header class="header">
+  <div class="header-left">
+    <img src="assets/logo.png" alt="Logo">
+  </div>
+  <nav class="header-middle">
+    <a class="header-link" [routerLink]="['/print']">Print</a>
+    <a class="header-link" [routerLink]="['/overview']">Overview</a>
+    <a class="header-link" [routerLink]="['/portfolio']">Portfolio</a>
+    <a class="header-link" [routerLink]="['/commission']">Commission</a>
+  </nav>
+  <div class="header-right">
+    <a class="header-link" [routerLink]="['/contact']">Contact</a>
+  </div>
+</header>
